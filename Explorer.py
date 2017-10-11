@@ -75,13 +75,13 @@ class Scanner:
             if explo == "L":
 
                 rover.SetDirectionCommand(explo)
-                # rover.turnLeft()
+               
             elif explo == "R":
 
                 rover.SetDirectionCommand(explo)
-                # rover.turnRight()
 
             elif explo == "M":
+               
                 rover.goforward()
 
         mars.busy.append((rover.getX(), rover.getY(), rover.getCommand()))
